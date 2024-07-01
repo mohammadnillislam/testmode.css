@@ -325,11 +325,11 @@ body.dark .form-group .form-control, body.dark .panel-body {
     font-size: 12px;
 }
 }
-#categoryTitle, #serviceTitle {
-    width: 90%;
-    overflow: hidden;
+.categoryTitle, #serviceTitle {
+    width: 80%;
+    overflow: scroll;
     position: static;
-    height: 20px;
+    height: 15px;
 }
 
 
@@ -341,14 +341,14 @@ body.dark .form-group .form-control, body.dark .panel-body {
 
 
 ..dropdown-menu {
-    width: 100%;
+    width: 80%;
     padding: 5;
     min-height: 40px;
     height: auto;
-    overflow: hidden;
-    overflow-y: scroll;
+    overflow: scroll;
+    
    
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 10px;
     margin-top: 4px;
 }
