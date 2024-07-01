@@ -55,10 +55,10 @@
 }
 }
 #categoryTitle, #serviceTitle {
-    width: 90%;
+    width: 100%;
     overflow: hidden;
     position: static;
-    height: 20px;
+    height: 10px;
 }
 
 
@@ -206,5 +206,5 @@ body.dark #serviceItem, body.dark #categoryItem {
     width: 100%;
     overflow: hidden;
     position: absolute;
-    height: 16px;
+    height: 10px;
 }
