@@ -334,11 +334,18 @@ body.dark .form-group .form-control, body.dark .panel-body {
 
 
 
+  
+       
+       
+
+
+
 ..dropdown-menu {
     width: 100%;
     padding: 5;
-    max-height: 415ph;
-    overflow: auto;
+    min-height: 40px;
+    height: auto;
+    
    
     border-width: 2px;
     border-radius: 10px;
