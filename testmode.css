@@ -32,56 +32,6 @@
 
 
 
-@media (max-width: 767.98px){
-.old-payments .op-title {
-    font-size: 15px;
-}}
-
-.old-payments .op-title {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #ffffff;
-}
- .old-payments .op-date {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 23px;
-    color: #ffffff;
-    margin-top: 10px;
-}   
-@media (max-width: 767.98px){
-.old-payments .op-status {
-    text-align: center;
-    margin-top: 10px;
-}}
-.old-payments .op-status {
-    border-color: #28cb69;
-    background: #28cb69;
-    color: #fff;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 7.54902px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    padding: 10px 25px;
-}
-.old-payments .op-id {
-    border-color: #28cb69;
-    background: #28cb69;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px 15px;
-    min-width: 75px;
-    text-align: center;
-}
-
-body.dark .form-group .form-control, body.dark .panel-body {
-    background: #13151e;
-    color: #FFFFFF;
-}
-
 
 
 
@@ -253,8 +203,8 @@ body.dark #serviceItem, body.dark #categoryItem {
 
 
 #categoryTitle, #serviceTitle {
-    width: 90%;
+    width: 100%;
     overflow: hidden;
     position: absolute;
-    height: 22px;
+    height: 16px;
 }
