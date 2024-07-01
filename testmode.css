@@ -64,23 +64,12 @@
 
 
 .dropdown-menu {
-        position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: .25rem
+    width: 100%;
+    padding: 0;
+    max-height: 30.vh;
+    overflow-y: scroll;
+    border: none!important;
+    margin-top: 10px;
 }
 body.dark #serviceItem, body.dark #categoryItem {
     background: #13151e;
