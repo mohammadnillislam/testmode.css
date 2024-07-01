@@ -64,12 +64,14 @@
 
 
 .dropdown-menu {
-    width: 100%;
-    padding: 0;
-    max-height: 43.6vh;
-    overflow-y: scroll;
-    border: none!important;
-    margin-top: 15px;
+        width: 100%;
+    position: relative;
+    background: #fb981e;
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    padding: 5px;
 }
 body.dark #serviceItem, body.dark #categoryItem {
     background: #13151e;
