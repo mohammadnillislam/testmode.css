@@ -345,7 +345,8 @@ body.dark .form-group .form-control, body.dark .panel-body {
     padding: 5;
     min-height: 40px;
     height: auto;
-    
+    overflow: hidden;
+    overflow-y: scroll;
    
     border-width: 2px;
     border-radius: 10px;
